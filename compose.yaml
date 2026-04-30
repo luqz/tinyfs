@@ -1,0 +1,8 @@
+services:
+  fileserver:
+    build: .
+    ports:
+      - "8082:8082"
+    volumes:
+      - ./uploads:/data
+    restart: unless-stopped
