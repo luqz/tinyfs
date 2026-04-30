@@ -1,6 +1,7 @@
 services:
-  fileserver:
+  tinyfs:
     build: .
+    image: tinyfs:latest
     ports:
       - "8082:8082"
     volumes:

@@ -1,4 +1,4 @@
-# fileserver
+# tinyfs
 
 一个用 curl 就能上传/下载文件的轻量 HTTP 文件服务。
 
@@ -7,8 +7,8 @@
 ### 直接运行
 
 ```bash
-go build -o fileserver .
-./fileserver
+go build -o tinyfs .
+./tinyfs
 ```
 
 ### Docker Compose
